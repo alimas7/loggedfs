@@ -1,4 +1,4 @@
-# LoggedFS - Filesystem monitoring with Fuse
+# LoggedFS - Filesystem monitoring with FUSE
 
 [![Build Status](https://travis-ci.org/rflament/loggedfs.svg?branch=feature%2Feasylogging%2B%2B)](https://travis-ci.org/rflament/loggedfs)
 
