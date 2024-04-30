@@ -638,7 +638,7 @@ static int loggedFS_write(const char *orig_path, const char *buf, size_t size,
     if (res == -1)
         res = -errno;
     else
-        loggedfs_log(aPath, "write", 0, "%d bytes written to %s at offset %d", res, aPath, offset);
+        loggedfs_log(aPath, "written", 0, "%d bytes written to %s at offset %d", res, aPath, offset);
 
     close(fd);
     delete[] aPath;
